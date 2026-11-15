@@ -32,7 +32,6 @@ We consider a two-dimensional semiconductor strip coupled to two superconducting
 
 The model includes Rashba spin-orbit coupling, Zeeman interaction and proximity-induced superconductivity. The superconducting electrodes have a phase difference phi, which can be controlled using magnetic flux.
 
-
 The system is described by the Bogoliubov-de Gennes Hamiltonian:
 
 $$
@@ -54,7 +53,6 @@ g(x)\mu_B B\sigma_y\otimes\tau_0
 $$
 
 Here, $\sigma$ and $\tau$ matrices act on the spin and electron-hole degrees of freedom, respectively.
-
 
 The superconducting pairing potential is spatially dependent:
 
