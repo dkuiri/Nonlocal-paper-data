@@ -34,33 +34,37 @@ The model includes Rashba spin-orbit coupling, Zeeman interaction and proximity-
 
 The system is described by the Bogoliubov-de Gennes Hamiltonian:
 
-\[
+$$
 \begin{aligned}
-H={}&
+H ={}&
 \left(
 \frac{\hbar^2 k_x^2}{2m^*}
-+\frac{\hbar^2 k_y^2}{2m^*}
++
+\frac{\hbar^2 k_y^2}{2m^*}
 -\mu
-\right)\sigma_0\otimes\tau_z\\
-&+g(x)\mu_B B\sigma_y\otimes\tau_0\\
-&+\alpha(x)(\sigma_x k_y-\sigma_y k_x)\otimes\tau_z\\
+\right)\sigma_0\otimes\tau_z
+\\
+&+g(x)\mu_B B\sigma_y\otimes\tau_0
+\\
+&+\alpha(x)(\sigma_x k_y-\sigma_y k_x)\otimes\tau_z
+\\
 &+\Delta(x)\tau_+
 +\Delta^*(x)\tau_- .
 \end{aligned}
-\]
+$$
 
-Here, sigma and tau matrices act on the spin and electron-hole degrees of freedom, respectively.
+Here, $\sigma$ and $\tau$ matrices act on the spin and electron-hole degrees of freedom, respectively.
 
 The superconducting pairing potential is spatially dependent:
 
-\[
+$$
 \Delta(x)=
 \begin{cases}
 \Delta_0, & x<-L_j/2,\\
-0, & |x|\leq L_j/2,\\
+0, & -L_j/2\leq x\leq L_j/2,\\
 \Delta_0 e^{i\phi}, & x>L_j/2.
 \end{cases}
-\]
+$$
 
 The material parameters are chosen to describe an InSb semiconductor proximitized by aluminium.
 
@@ -88,20 +92,24 @@ We calculate the scattering matrix and electron and hole transmission probabilit
 
 The nonlocal conductance is given by
 
-\[
+The nonlocal conductance is given by
+
+$$
 G_{ij}(E)=\frac{e^2}{h}
 \left[
 T_{ij}^{ee}-T_{ij}^{he}
 -\delta_{ij}N_i^e
 \right].
-\]
+$$
 
 For transport between different leads, this becomes
 
-\[
+$$
 G_{12}(E)=\frac{e^2}{h}
-\left(T_{12}^{ee}-T_{12}^{he}\right).
-\]
+\left(
+T_{12}^{ee}-T_{12}^{he}
+\right).
+$$
 
 Here, the two transmission contributions describe electron transmission and crossed Andreev reflection.
 
